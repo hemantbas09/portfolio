@@ -1,0 +1,52 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: black;
+
+  &__logo {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 24px;
+
+    &--first {
+      color: red;
+    }
+
+    &--second {
+      color: rgb(167, 43, 43);
+    }
+  }
+
+  &__menu {
+    display: flex;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.6px;
+    line-height: 20px;
+    font-weight: 500;
+
+    &-item {
+      list-style: none;
+      padding-left: 20px;
+    }
+
+    &-link {
+      text-decoration: none;
+      color: white;
+    }
+  }
+
+  &__right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+  }
+}
